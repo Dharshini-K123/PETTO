@@ -1,0 +1,53 @@
+.tick {
+    width: 100px; /* Set your image width */
+    height: 100px; /* Set your image height */
+    margin-left: 45%;
+    margin-top: 15%;
+  }
+
+  .circle {
+    fill: none;
+    stroke: orange;
+    stroke-width: 3;
+    stroke-dasharray: 760;
+    stroke-dashoffset: 760;
+    animation: drawCircle 2s ease forwards;
+  }
+
+  .tickPath {
+    stroke-dasharray: 80;
+    stroke-dashoffset: 80;
+    stroke: orange; /* Change the color here */
+    animation: drawTick 2s ease forwards;
+  }
+
+  @keyframes drawCircle {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes drawTick {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+.h12{
+    text-align: center;
+    color: orange;
+}
+
+
+.dog-container {
+  position: absolute;
+  top: 50%;
+  left: -200px; /* Initial position off-screen */
+  transform: translate(0, -50%);
+  animation: runDog 5s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes runDog {
+  to {
+      left: 100%; /* Move to the right end of the page */
+  }
+}

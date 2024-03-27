@@ -1,0 +1,121 @@
+.title1{
+   padding-top: 7%;
+}
+.dog{
+   border-radius: 25%;
+    height: 150px;
+    width:150px;
+   
+}
+
+.cat{
+    border-radius: 25%;
+    height: 150px;
+    width:150px;
+}
+
+.bird{
+    border-radius: 25%;
+    height: 150px;
+    width:150px;
+}
+.rabbit{
+    border-radius: 25%;
+    height: 150px;
+    width:150px;
+}
+.dogs{
+   border-radius: 25%;
+    height: 270px;
+    width:290px;
+    background-color:rgb(246, 172, 36);
+  margin-left: 50px;
+    
+}
+
+.cats{
+    border-radius: 25%;
+    height: 270px;
+    width:290px;
+    background-color:rgb(246, 172, 36);
+}
+
+.birds{
+    border-radius: 25%;
+    height: 270px;
+    width:290px;
+    background-color: rgb(246, 172, 36);
+}
+.rabbits{
+    border-radius: 25%;
+    height: 270px;
+    width:290px;
+    background-color:rgb(246, 172, 36);
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.outer{
+    background-color: lightgoldenrodyellow;
+   height: 700px;
+   width:100%;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.head{
+    background-color: gainsboro;
+    height: 70px;
+    text-align: left;
+    padding-left: 12px;
+    padding-top: 10px;
+
+    display: flex;
+}
+.petto{
+    margin-left: 10px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.app{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.contact{
+    background-color:gainsboro;
+    height: 300px;
+    padding-top: 50px;
+   
+}
+.rules{
+    background-color: antiquewhite;
+    height: 700px;
+   padding: 25px;
+    justify-content: space-evenly;
+}
+.n{
+    background-color: rgb(234, 198, 179);
+    height: 50px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 40%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.n:hover{
+    transform: scale(1.1);
+}
